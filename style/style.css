@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  margin-bottom: 200px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+body header {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+}
+
+body header .logo img {
+  width: 30%;
+  padding-left: 10px;
+}
+
+body section {
+  padding: 0% 5%;
+}
+
+body #sliderAnimation {
+  background-color: #F0F0F0;
+  text-align: center;
+  padding: 20px 0px;
+  -webkit-animation: slider 10s infinite;
+          animation: slider 10s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+body div p {
+  display: inline;
+  font-size: small;
+}
+
+body #frontPage {
+  padding: 0% 5%;
+}
+
+body #frontPage img {
+  width: 90vw;
+}
+
+body #frontPage p {
+  margin-bottom: 0px;
+}
+
+body #frontPage h1 {
+  margin: 3px 0px 0px 0px;
+  font-size: 55px;
+  font-family: 'Anton', sans-serif;
+  line-height: 40pt;
+  margin-bottom: 25px;
+}
+
+body #frontPage button {
+  color: white;
+  background-color: black;
+  border-style: none;
+  border-radius: 20px;
+  padding: 13px 26px;
+}
+
+.primaryNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.primaryNav ul li {
+  width: 30px;
+  padding: 0 10px;
+}
+
+.primaryNav ul .menu {
+  display: none;
+}
+
+.primaryNav ul li a {
+  text-decoration: none;
+}
+
+.primaryNav ul li a img {
+  width: 100%;
+}
+
+#horizontalScroll {
+  margin-top: 30%;
+}
+
+#horizontalScroll .box-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: scroll;
+}
+
+#horizontalScroll .box-products div {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 12px;
+}
+
+#horizontalScroll .box-products div button {
+  border-radius: 20px;
+  border-style: none;
+  background-color: #F0F0F0;
+  color: black;
+  position: absolute;
+  overflow: hidden;
+  padding: 8px 28px;
+  left: 5%;
+  top: 88%;
+}
+
+#horizontalScroll .box-products div img {
+  width: 300px;
+}
+
+#horizontalScroll .box-products div h4 {
+  margin: 10px 0px 5px 0px;
+}
+
+#horizontalScroll .box-products div p {
+  margin: 0;
+}
+
+.lunarYear h2 {
+  margin-top: 40%;
+}
+
+.lunarYear article div {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.lunarYear article div button {
+  border-radius: 20px;
+  border-style: none;
+  background-color: #F0F0F0;
+  color: black;
+  position: absolute;
+  overflow: hidden;
+  padding: 8px 28px;
+  left: 5%;
+  top: 88%;
+}
+
+.lunarYear article div img {
+  width: 90vw;
+}
+/*# sourceMappingURL=style.css.map */
