@@ -182,4 +182,36 @@ body #frontPage button {
 .lunarYear article div img {
   width: 90vw;
 }
+
+footer {
+  margin-top: 5%;
+  background-color: #101010;
+  color: white;
+  padding: 10px 0px;
+}
+
+footer .info-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .location-box p:last-of-type {
+  color: #A9A9A9;
+  font-size: 12px;
+}
+
+footer .legal-info-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .legal-info-box ul li {
+  padding: 20px 0px;
+}
+
+footer .legal-info-box ul li a {
+  text-decoration: none;
+  color: #A9A9A9;
+  font-size: 12px;
+}
 /*# sourceMappingURL=style.css.map */

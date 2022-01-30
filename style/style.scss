@@ -168,6 +168,39 @@ body{
   }
 }
 
+footer{
+  margin-top: 5%;
+  background-color: $footerColor;
+  color: $white;
+  padding: 10px 0px;
+  .info-box{
+    ul{
+      list-style-type: none;
+      padding: 0;
+    }
+  }
+  .location-box{
+    p:last-of-type{
+      color: $textgrey;
+      font-size: 12px;
+    }
+  }
+  .legal-info-box{
+    ul{
+      list-style-type: none;
+      padding: 0;
+      li{
+        padding:20px 0px;
+        a{
+          text-decoration: none;
+          color: $textgrey;
+          font-size: 12px;
+          
+        }
+      }
+    }
+  }
+}
 // #moreNike{
 //   display: flex;
 //   div{}
