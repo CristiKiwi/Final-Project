@@ -1,1 +1,85 @@
-/* No CSS *//*# sourceMappingURL=signup.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blurredBg {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/backgroundSign.png") no-repeat left center;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+
+#registerBox {
+  width: 75vw;
+  height: 90vh;
+  background-color: white;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  padding: 28px;
+  text-align: center;
+  font-size: 13px;
+}
+
+#registerBox header img {
+  width: 50px;
+}
+
+#registerBox header p {
+  color: #A9A9A9;
+}
+
+#registerBox .signForm ::-webkit-input-placeholder {
+  color: #A9A9A9;
+}
+
+#registerBox .signForm :-ms-input-placeholder {
+  color: #A9A9A9;
+}
+
+#registerBox .signForm ::-ms-input-placeholder {
+  color: #A9A9A9;
+}
+
+#registerBox .signForm ::placeholder {
+  color: #A9A9A9;
+}
+
+#registerBox .signForm input {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #F0F0F0;
+}
+
+#registerBox .signForm select {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #F0F0F0;
+}
+
+#registerBox .signForm p {
+  text-align: center;
+  font-size: 11px;
+  color: #A9A9A9;
+}
+
+#registerBox .signForm div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=signup.css.map */

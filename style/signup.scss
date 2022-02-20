@@ -1,0 +1,65 @@
+@import "colors";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blurredBg {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/backgroundSign.png") no-repeat left center;
+  filter: blur(3px);
+}
+
+#registerBox {
+  width: 75vw;
+  height: 90vh;
+  background-color: $white;
+  transform: translate(50%, -50%);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  padding: 28px;
+  text-align: center;
+  font-size: 13px;
+  header {
+    img {
+      width: 50px;
+    }
+    p {
+      color: $textgrey;
+    }
+  }
+
+  .signForm {
+    ::placeholder {
+      color: $textgrey;
+    }
+    input {
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid $grey;
+    }
+    select {
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid $grey;
+    }
+    p {
+      text-align: center;
+      font-size: 11px;
+      color: $textgrey;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
